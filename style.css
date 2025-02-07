@@ -147,3 +147,22 @@ h1{
         transform: rotate(0deg);
     }
 }
+
+/* Styling for the cheese emoji */
+.cheese {
+    position: absolute;
+    top: 70%; /* Adjust the position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px; /* Increased size of the emoji */
+    text-align: center;
+    z-index: 10;
+}
+
+/* Styling for the cheese text */
+.cheese-text {
+    font-family: 'Sacramento', cursive;
+    font-size: 24px;
+    color: #FE7696;
+    margin-top: 10px; /* Space between emoji and text */
+}
